@@ -1,0 +1,58 @@
+{
+  "judged_examples": 40,
+  "mean_scores": {
+    "relevance": 3.0,
+    "groundedness": 3.0,
+    "correctness": 3.0,
+    "helpfulness": 3.0,
+    "brand_consistency": 4.0,
+    "overall_score": 3.0
+  },
+  "overall_mean_score": 3.0,
+  "unsupported_claims_percentage": 0.0,
+  "score_distribution": {
+    "relevance": {
+      "1": 0,
+      "2": 0,
+      "3": 40,
+      "4": 0,
+      "5": 0
+    },
+    "groundedness": {
+      "1": 0,
+      "2": 0,
+      "3": 40,
+      "4": 0,
+      "5": 0
+    },
+    "correctness": {
+      "1": 0,
+      "2": 0,
+      "3": 40,
+      "4": 0,
+      "5": 0
+    },
+    "helpfulness": {
+      "1": 0,
+      "2": 0,
+      "3": 40,
+      "4": 0,
+      "5": 0
+    },
+    "brand_consistency": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 40,
+      "5": 0
+    },
+    "overall_score": {
+      "1": 0,
+      "2": 0,
+      "3": 40,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "mode": "mock_only_not_final_quality"
+}

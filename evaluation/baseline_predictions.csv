@@ -1,0 +1,222 @@
+row_number,customer_message,expected_intent,trivial_predicted_intent,simple_predicted_intent,expected_action,trivial_predicted_action,simple_predicted_action
+1,@AmazonHelp U people not even understanding the situation...there was fire on stove n if cylinder got fired what worst could happened...,SAFETY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,ESCALATE
+2,@AmazonHelp i reset my password 3 times and it still says incorrect you gotta be shitting me,ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+3,"Really unhappy, @AmazonHelp. I'm sitting here at home all day and I got this text a few minutes ago. https://t.co/w35PxLWI0K",GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+4,@AmazonHelp I can’t log in because it’s locked.,ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+5,"@AmazonHelp J’ai commandé lundi deux produits, bénéficiant de Prime j’ai opté pour la livraison le soir. Ils ne sont jamais arrivés.",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+6,"@AmazonHelp 1. Does it work without being plugged in to power? 
+2. If yes, what is battery life? 
+3. Can it be used for receiving and making calls?",PRODUCT_TECHNICAL,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+7,@AmazonHelp They said it was UPS. UPS says they never received the package to deliver ¯\_(ツ)_/¯,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+8,"@AmazonHelp J'ai voulu annuler ma commande, mais Amazon dit que c'est soit disant trop tard... Vraiment barbant chez Amazon ! Que des problèmes!",ORDER_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+9,@AmazonHelp Ok thank u,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+10,"@AmazonHelp It was expected 10/30-10/31 so yes, it has passed.",GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+11,@AmazonHelp Update ??? What your internal investigation repors tell you ??,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+12,"@AmazonHelp No use of prime membership, return my money",PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+13,@AmazonHelp Not impressed with Amazon Logistics. Computer parts delayed a week and a refund is the only option? Really disappointed.,RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+14,@AmazonHelp Nothing on my order on your web site.,ORDER_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+15,@AmazonHelp I have filled the form but I don't expect anything concrete to happen besides paying lip-service. No one comes back to say why this happens,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+16,@AmazonHelp AMZL US,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+17,@AmazonHelp Pathetic reply by your caller,ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+18,"@AmazonHelp I was told my account is on hold, if I can’t use my gift cards please return my money back to me Okay",PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+19,"Placed order today, said delivery would be Wed but just received email saying it'll be Thurs now? I'm a prime customer @AmazonHelp. Unhappy!",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+20,@AmazonHelp In the last four days U people are not able to arrange the pick up??? Is there any time limit for this to solve the issue???,RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+21,@AmazonHelp Yes,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+22,@AmazonHelp Did the same..but din't get any response..n ur chat executive says we don't have any record of u..,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+23,"@AmazonHelp Order no - 403-7559101-5645129 
+Return reference - 710398288491
+Article name - puma shoes",RETURN_REFUND,GENERAL_SUPPORT,RETURN_REFUND,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+24,@AmazonHelp Your customer service has reverted saying that apparently the package has been delivered and signed by receipt my yesterday. Not true.,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+25,@AmazonHelp hey I started a Amazon prime trial..i was charged $1..wats that about ?,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+26,@AmazonHelp You have and it’s been pushed (again) to Friday or possibly Saturday or god forbid Monday. Was told it would be diverted by 8pm tonight.,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+27,@AmazonHelp Thats the thing I told customer service. I created a new email address for the Prime trial and forgot it. What can I do so I'm not charged?,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+28,@AmazonHelp Never got the beta and now I’m being told I won’t get ANY of the other stuff. Including Last Jedi content and or bonus classes. Anything! :(,PRODUCT_TECHNICAL,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+29,@AmazonHelp Wasn't tracked as sent via Royal Mail. I've emailed the seller.,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+30,@1404 @AmazonHelp  product is not deliverable to any single pincode in India. making customers fool by listing product at low price https://t.co/3hxhLgCaWd,ORDER_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+31,@AmazonHelp Kindly see this picture.. what kind of crap is this . I haven't received refund for this product.its been two months . https://t.co/7b9FuW1gyI,RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+32,@AmazonHelp Is there a human working there or robots cant u see i have replied twice guyzzz pls call on 8424869098 #poorcustomerservice #fraud #complain,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,ESCALATE
+33,@AmazonHelp I received product with torn package with clear damage however small though. Proper care was not taken while delivering. And now if I replace product it will take 5-7 days atleast which I can not afford. I have no option but to keep it and suffer due to bad practise in delivery.,PRODUCT_QUALITY,GENERAL_SUPPORT,DELIVERY_ISSUE,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+34,@AmazonHelp I assumed your previous question meant you were going to do something...? https://t.co/Ry03t6eDaK,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+35,"@AmazonHelp heißt das, das  ich umsonst zu Hause geblieben bin und ich hätte zur Arbeit gehen können da es wohl heute nicht mehr kommt? https://t.co/gSCaua0Qrd",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+36,@AmazonHelp I need a solution why u r not helping consumers on self return things. M not bought product to self return. Why Amazon allows such seller,RETURN_REFUND,GENERAL_SUPPORT,RETURN_REFUND,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+37,"@AmazonHelp 1. Does it work without being plugged in to power? 
+2. If yes, what is battery life? 
+3. Can it be used for receiving and making calls?",PRODUCT_TECHNICAL,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+38,@AmazonHelp infórmese... no voy a perder más mi tiempo...,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+39,"@AmazonHelp If such is the case I regret my order with Amazon. I was thinking more of a better solution such as delivering product again and then collecting the first one. Since I need the book for study, I can not waste time returning it. I can only regret about my choice about Amazon.",RETURN_REFUND,GENERAL_SUPPORT,RETURN_REFUND,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+40,@AmazonHelp Have sent the prouduct back .. and after a month ur complaining that the product sent is wrong .. @AmazonHelp,RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+41,@AmazonHelp I still haven't received any call from your end. Kindly resolve my query,ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+42,@AmazonHelp U need to ur mails first.. Are they of any use???,ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+43,"@AmazonHelp Have already shared my registered mobile no. 9673101122, but I m currently contactable on 9818601122",ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+44,@AmazonHelp Warum ist es mir (und scheinbar auch ein paar anderen) nicht möglich per Bankeinzug zu bezahlen?,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+45,@AmazonHelp  please ship this today ORDER # 408-8285636-6191504,ORDER_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+46,@AmazonHelp no body inform me. once u return that parcel. please send the tracking id or parcel details. but after 10days i call amazon custamare care,RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+47,.@115850 @AmazonHelp thanks for no replies whatsoever on my complaint.an you please tell me what more should I do? @119351 @1015,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+48,@AmazonHelp 連絡しましたよ。仕様だそうで。どういうつもりか存じませんが、かなり問題のある仕様だと思いますが。,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+49,@AmazonHelp My return date is near so please fast proccess.,RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+50,@AmazonHelp Gerade nachgeschaut. Kommt erst morgen...dann kann ich ja meine Planung für diese und nächste Woche verwerfen -.- https://t.co/6BT20Pvdg2,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+51,"@AmazonHelp Yes, butvthey lied. Told me carrier and said they would contact and call me back. The never called. I hsdvto make 2 additional calls",ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+52,@AmazonHelp Oui contacté ma banque et porté plainte pour fraude. Je ne sais pas si je vais pouvoir être remboursée. Etait ce une fraude ou une erreur ?,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,ESCALATE
+53,@AmazonHelp https://t.co/QCt7kMtESE,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+54,"@AmazonHelp OKAY, now I get ""connection timed out"", does GFW play a part here? (I'm in China). Even though, why ""wrong password""?",ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+55,@AmazonHelp Had a package scheduled for delivery today and it didn’t come I’m not happy,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+56,@120612 @AmazonHelp Right some time they people make fool. Before perchasing they people not mention anywhere for self return so why we do it otherwise we...,RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+57,@AmazonHelp .com,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+58,@AmazonHelp Original promised delivery date was yesterday to this Friday.,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+59,"@AmazonHelp So this order 407-7402036-7182732
+Placed on 30th and supposed to reach me on 2nd  November
+Now is this as per amazon prime delivery std ??",DELIVERY_ISSUE,GENERAL_SUPPORT,ACCOUNT_MEMBERSHIP,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+60,@AmazonHelp 408-9273159-6369903.replacement ordered from 24th Oct.no1 contact me.Really worst courier service from Amazon,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+61,@AmazonHelp @115833 What is 2nd Generation? I have Amazon Echo from US ? Not the Echo Dot.,PRODUCT_TECHNICAL,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+62,"@AmazonHelp いえいえ！
+問題解決しました！！助かりました、ありがとうございます(´；ω；｀)
+はい！これからもお世話になります〜🎶",GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+63,@116096 Truly. This is the strangest vampire book I’ve ever received. 😜 cc @43760 @AmazonHelp #misship https://t.co/Zad7Az14Zg,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+64,@AmazonHelp Ich werd es mal versuchen! Danke für die schnelle und gute Hilfe! Noch ein schönen Feiertag! ❤😁,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+65,@AmazonHelp Its not my issue for return pick up. U people not mention any where before purchase product otherwise i think about purchase this order.,RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+66,@AmazonHelp yes did that but no outcome till now. waste of time,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+67,"@AmazonHelp ""Refused shipment - on the way back.""",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+68,@AmazonHelp Is there any update??,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+69,"@AmazonHelp All m getting is apologies but no refund.. everything is online, unable to understand the delay!!",RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+70,@AmazonHelp I rather not take prime then and use the normal service as I don’t see any diff or advantages,ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+71,"@AmazonHelp Solved, Thank You",GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+72,"Bad service &amp; no reply! Why do Amazon make it so hard to get in touch! Delivery due yesterday as paid for, not in 2 more days! @AmazonHelp https://t.co/dx43TTZIQK",DELIVERY_ISSUE,GENERAL_SUPPORT,DELIVERY_ISSUE,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+73,@AmazonHelp Or you can provide me with a direct dial number and I’ll call it now,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+74,@AmazonHelp Yes I've already contacted my bank and they are saying.. no such transaction we can see from Amazon,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+75,"@AmazonHelp Mac book pro, with Chrome",PRODUCT_TECHNICAL,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+76,@AmazonHelp here is the email. Conflicting answers from others in similar situations online. https://t.co/9zbCqLzokH,ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+77,@AmazonHelp I already talked to your customer care. They are saying kindle prime reading is only available for US residents. I am asking why?,ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+78,@AmazonHelp done.,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+79,@AmazonHelp Please reply with necessary resolution...,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+80,@AmazonHelp Oui j’attends un mail de remboursement qui n’est jamais arrivé,RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+81,@AmazonHelp have a query regarding cash back during 14-17 October sale. Email/DM ?,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+82,@AmazonHelp I allready replied. I clearly say that please pick up from your hand.,RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+83,@AmazonHelp You give me only one answer but please help for pick up,RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+84,@AmazonHelp Please do it fast,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+85,"@AmazonHelp installed the alexa app,but it doesn't take my India address alexa weather gives me report of Seattle instead of Pune.",PRODUCT_TECHNICAL,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+86,@AmazonHelp Yes I've filled details but still haven't received any call. And I Yesterday I called to customer care and they kept me waiting for 30 mints,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+87,"@AmazonHelp form has been filled awaiting for a solution n refund. I have already invested my energy in explaining before, kindly treat it urgent.",RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+88,"@AmazonHelp Arriving Today: Your package with Dell KM117 Wireless Keyboard Mouse is out for delivery.Amt: Rs.1,399. https://t.co/JuXkvDFU1Q",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+89,"@AmazonHelp Please simply answer my question.  I am not an AmazonFresh customer, just a condominium unit owner inconvenienced by UR customers  &amp;trying 2 figure out how we can all accommodate one another.  Y R U making this so complicated? Direct message me with UR contact info.",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+90,@AmazonHelp My Halloween costume is a day late. Can you help?,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+91,"@AmazonHelp I have not recieved a mail. I cannot reply to a mythical mail, right?",GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+92,@AmazonHelp Thanks. I wish the same degree of concern were shown about my complaint though.,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+93,@AmazonHelp ありがとうございました,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+94,@AmazonHelp Kindly return my prime membership amount,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+95,"@AmazonHelp This is da third time am providng the details. Sorry, but i donot have the time.If i dont get the product,i wll make sure you guys regret it",GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+96,@AmazonHelp I want a proper resolution here...,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+97,@AmazonHelp Multiple calls to call amazon call center with zero resolution and never a promised call back.,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+98,@AmazonHelp Pourtant c'était écrit Prime en dessous de l'article quand il était dans mon panier...,ORDER_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+99,@AmazonHelp No option of call with customer care,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+100,@AmazonHelp Ur customer care is disconnecting my call by saying that we would not be able to give you any further I sight over this issue.Please explain,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+101,@AmazonHelp All of them,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+102,@AmazonHelp I have inked in detail at the given URL...hope to see some useful action,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+103,@AmazonHelp No any solution provide from your side and I am unable to contact with Amazon care because our call is blocked by Amazon..,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+104,"@AmazonHelp Replied asking me if I wanted to join love film, that I could keep dvds I have, that film clubs runs for schools(run it)&amp;that it’s stopping",ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+105,So sad @AmazonHelp @115830 ruined his FIRST Halloween by failing to deliver his tiny costume 2 days running #whypayprime? #amazon #prime,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+106,"@AmazonHelp Thank you for doing the right thing and solving the problem, though i believe we could have done it on Day1 of issue, but thank you eith way",GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+107,@AmazonHelp Till now also I don't received any update from your end,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+108,@AmazonHelp Where you send correspondence ?? I did not get any correspondence.,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+109,@AmazonHelp Have you gone deeper into the issue or it's just an automated instant reply over Twitter?? @115851,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+110,"Ach schau an. Meine Bestellung war unzustellbar... @AmazonHelp, was ist da denn passiert? Bekomme ich mein Geld nun wieder?",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+111,"@AmazonHelp I am getting any mails nor any calls from u.
+If not able to solve let me know...I ll uninstall Amazon n share my feedback with others too",GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+112,@AmazonHelp 2 days and zero outcome,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+113,@AmazonHelp I need a proper compensation and full refund of my order. Contact me on 9140560819 for any other detail.,RETURN_REFUND,GENERAL_SUPPORT,RETURN_REFUND,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+114,@AmazonHelp #pathetic customer service. New low in e-commerce. Trying to raise a return request 5 times. #Fail,RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+115,"@AmazonHelp @7108 Found error on website, one click on $4.85 makes it $285 on card select screen https://t.co/zrzUwV6Cl1",PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+116,@AmazonHelp こんにちは。先日Amazonギフト券チャージのやり方を教えていただいた者です。チャージが終了しアカウントに登録されたのですが、買い物でお支払い方法のコード入力とはどこに書かれてあるのですか？「次に進む」が表示されず買い物できません。どうすれば良いですか？,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+117,"@AmazonHelp I made a same day ship mid Monday and it said it would deliver that day. It didn’t. Today it still says out for delivery, still no show.",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+118,@AmazonHelp What support team are you talking about ? I called twice n they make it sound like they will graciously refund my money. But then nothing,RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+119,"@AmazonHelp how to stop my prime membership, since i was scammed and you do nothing to me, i need to cancel my membership.",ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,ACCOUNT_MEMBERSHIP,ESCALATE,AUTO_HANDLE,ESCALATE
+120,@AmazonHelp That I do daily. Can't the request be prioritized?,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+121,@AmazonHelp はい^ ^すぐに架空請求だと分かりました。ありがとうございます。,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+122,"@AmazonHelp 1. Does it work without being plugged in to power? 
+2. If yes, what is battery life? 
+3. Can it be used for receiving and making calls?",ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+123,@AmazonHelp Thats why i writing here that rest of the people shd know about your services and how you r making fool on name of prime,ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,ACCOUNT_MEMBERSHIP,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+124,@AmazonHelp I have sent an email as the same thing happened to me today. The delivery attempt was never made.,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+125,@AmazonHelp Hi can you tell me how I make a complaint about your delivery drivers?,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+126,@AmazonHelp I had replied almost as soon as you posted about the email and sent it. I want to know what action has been taken on my complaint.,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+127,"@AmazonHelp 24 to 48 hours 2resolve.But WTH! First,Amazon says 'Delivered' then,says 'Item could not be delivered,as there was no one 2accept delivery'",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+128,"@AmazonHelp Fulfilled by Amazon. It’s quite disturbing you’re selling counterfeit items, and can’t be trusted.",PRODUCT_QUALITY,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,ESCALATE
+129,@AmazonHelp Deluxe edition on September 16th. It definitely had the pre orders on the profile because that’s why I ordered. Also why I paid for Prime..,ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+130,@AmazonHelp I have replied dozen of times first check then reply. So silly,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+131,@AmazonHelp Trust me it useless to narrate my experience in the app feedback...I want a resolution... And commitment that this won't be repeated and a compensation,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+132,"@AmazonHelp Called USPS for delivery info. Estimated hold time for the next representative is FIFTY MINUTES. As YOUR customer, I shouldn't be doing this",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+133,@AmazonHelp It's point less to actually fill this form.Since you always give me those replies with I'll personally follow up and stuff..,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+134,"@AmazonHelp Danke für die schnelle Antwort... ja, ich werde mal nachfragen, was da schiefgelaufen sein soll. Ihnen auch einen schönen Abend noch.",GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+135,"@AmazonHelp I need to change the language of my account to be able to get support, which I don't have the time to do, there's any other way to contact?",ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+136,@AmazonHelp here is the email. Conflicting answers from others in similar situations online. https://t.co/9zbCqLzokH,ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+137,"@AmazonHelp no luck it keeps asking for code witch is not sending to my phone can Amazon eliminate the 2 step method, this is so frustrating",PRODUCT_TECHNICAL,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+138,@AmazonHelp 408-9273159-6369903.replacement ordered from 24th Oct.no1 contact me.Really worst courier service from Amazon,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+139,@AmazonHelp Still I didn't received any update from your end. I have to book order today,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+140,@AmazonHelp Still not got any mail please solve my problem right now.,ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+141,"@AmazonHelp Si, es correos y pedí ke viniesen a x el pakete pero me pedian ke me kedase o toda una mañana o toda una tarde en casa pero y mi trabajo??",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+142,"@AmazonHelp USPS is the carrier. They are usually here 10 am-12 pm, so I don't know what's going on.",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+143,"@AmazonHelp That's what m doing n u making me believe more that refund policy by Amazon in India is really poor..!
+Ur seller is even not taking calls nw",RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+144,@115821 @AmazonHelp why is my order at my local courier for the last 6 days and still hasn’t been delivered to me?? Over 1 week late 😡,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+145,"@AmazonHelp yes i did,but amazonuk is not doing the refund process.if they do it .i will get the money",RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+146,@AmazonHelp Please find attached screenshot https://t.co/uivHzbY3JE,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+147,@AmazonHelp Order details!!! https://t.co/Rapb0ePnLK,ORDER_ISSUE,GENERAL_SUPPORT,ORDER_ISSUE,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+148,"@AmazonHelp Submitted, for the third time for the same issue.",GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+149,@AmazonHelp 親切にどうもありがとうございます(;_;)(;_;),GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+150,@AmazonHelp When will be the earliest?? 1 more month?,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+151,"@AmazonHelp hahahaha, you sent me this yesterday. If my problem is, I can't login, how do you expect me to complete this page I have to log in to?",ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+152,"@AmazonHelp And he left it on the doorstep anyway, after creating merry hell",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+153,@AmazonHelp If nothing happens then I will put on FB also,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+154,@AmazonHelp I called customer service and was told my membership wouldn't be renewed. I was just charged today. How do I get a refund? https://t.co/SeoQUsA0VA,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+155,@AmazonHelp USAs Amazon. Com,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+156,.@AmazonHelp Item has not been delivered but tracking says it was handed to me over an hour ago... 2nd time this has happened. Sort it out https://t.co/42W82GcARk,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+157,@AmazonHelp Lol that's not my real name. But basically yeah they won't just leave it at my front door. Tomorrow's the final attempt.,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+158,@AmazonHelp Is there a human working there or robots cant u see i have replied twice guyzzz pls call on 8424869098 #poorcustomerservice #fraud #complain,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,ESCALATE
+159,@AmazonHelp @AmazonHelp @115850 @1402 @120781 what is the update Amazon team??,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+160,@AmazonHelp Do u hav brain the product is taking more then a week to reach me and i am #primememeber and can u read i need a #refund now i dnt #trust,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+161,I go to watch #thebay and episode 7 &amp; 8 aren’t there??? 😭 @117090 @AmazonHelp,PRODUCT_TECHNICAL,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+162,"@AmazonHelp , as @115830 haven’t replied, could you? https://t.co/HZhcbSKhWv",GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+163,@AmazonHelp How many time I send detail.??,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+164,"@AmazonHelp My package just got here. All good, thank you!",GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+165,@AmazonHelp,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+166,@AmazonHelp I did not get any kindly resend.,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+167,"@AmazonHelp Except that isn't the case.
+1 Why not?
+2 Why are you sending people to The Works?
+3 Why is that book in Home &amp; KItchen?
+4 What do you suggest I say to Bonnier when I call their switchboard as you suggest, to find out what Amazon is up to?
+5 What is the point of having Prime?",ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+168,@AmazonHelp problem not resolved yet...high time now,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+169,@AmazonHelp @AmazonHelp The link you sent me this page opens and in its settings I can't find where to change country to India. https://t.co/IXCPlZlzHs,PRODUCT_TECHNICAL,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+170,"@AmazonHelp already tried help by mail and still problem persist, please close my account and don't want to be a customer anymore https://t.co/m2g5tP26fX",ACCOUNT_MEMBERSHIP,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+171,@AmazonHelp You people always escalated issue and for another 24 hours.kindly do something substantial.still issue is unresolved. such a poor service.,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+172,@AmazonHelp Would like to thankyou for ur efforts..amount credited back to my account today.!!,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+173,@AmazonHelp  https://t.co/LzRfyE5m3q,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+174,@AmazonHelp I already replied on mails..no more mails...I have seen the way Amazon handled the situation...call me &amp; clear can it done or not,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+175,"@AmazonHelp Tried that the first time, customer service operators can’t seem to read an email",GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+176,@AmazonHelp The problem is with the router that i ordered. Which is dispatched back to your fulfillment centre! Without my permission! Pathetic service!,ORDER_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+177,@AmazonHelp @115850 I have bought a product and now it's size is not matching I want to return it and also requested return process.,RETURN_REFUND,GENERAL_SUPPORT,RETURN_REFUND,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+178,@AmazonHelp Hahaha. Reported multiple times...even spoke to ur so called customer service.. no help...,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+179,@AmazonHelp Feedback? Are you kidding me? Where is my money and the package...bloddy idiots I am the prime customer and I want the shipment to be delivered rite now...I don't care about ur internal review...get me ur escalation point of contact to call me,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+180,@AmazonHelp Amazon its a complete fraud now u are saying u will ship till 7th please for god sake #help #cancelorder #refund #fraud #poorcustomerservice https://t.co/riuEM7g6om,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,ESCALATE
+181,"@AmazonHelp If such is the case I regret my order with Amazon. I was thinking more of a better solution such as delivering product again and then collecting the first one. Since I need the book for study, I can not waste time returning it. I can only regret about my choice about Amazon.",RETURN_REFUND,GENERAL_SUPPORT,RETURN_REFUND,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+182,"@AmazonHelp J'ai voulu annuler ma commande, mais Amazon dit que c'est soit disant trop tard... Vraiment barbant chez Amazon ! Que des problèmes!",ORDER_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+183,@115850 @AmazonHelp 'Handed over directly to Customer' when I'd left this place at 6:00 pm &amp; never returned for the night. Trust @115850 to do the impossible,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+184,"@AmazonHelp so after wasting more than 1.5 month, now you are telling me the product is out of warranty. i had gone to iball 1.5 months back .",PRODUCT_QUALITY,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+185,@AmazonHelp What do you mean prices are ever changing? Is @115850 a stock exchange? And how can you charge more than MRP? Should I sue you?,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+186,@AmazonHelp It is a doorstep pick up but I need to bear the charges for the courier while I am struggling to get a refund for the already paid order,RETURN_REFUND,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+187,"@115850 @115821 @AmazonHelp I waited 15 days,sent 10 email,was assured tht case escalted,todays response WE CANNOT HELP,customer service?",GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+188,@AmazonHelp わわ、ご丁寧に返信頂き、ありがとうございます(_ _*)もしかしたらそうなのかも知れません💦引き落とし確認前に購入してしまった物があるので、取り敢えず月会費に変更してみました。次月利用予定なければキャンセルする予定です。,PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+189,@AmazonHelp Is the Echo Show no longer supported?,PRODUCT_TECHNICAL,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+190,@AmazonHelp Hi ...enough mails done but response is very discouraging... contact me on call,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+191,"@AmazonHelp I was on the phone for an hour; kids fire tablet not working , warranty is a lie and your agents are rude.",PRODUCT_TECHNICAL,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,ESCALATE
+192,@AmazonHelp Ur customer care didnt provide me a correct answer,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+193,@AmazonHelp Thank you so much once again for kinds of word,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+194,"@AmazonHelp Ordered last Friday, still not here.",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+195,"@AmazonHelp @115850  @120040
+Even after your team's promise, I have not received my cashback of INR1500 before deadline given by them.",PAYMENT_BILLING,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+196,@AmazonHelp Stop asking non sense. it's been mid of the day providing hell of details but no response yet. Not even Surya Flames responded #JeffBezos,GENERAL_SUPPORT,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+197,@AmazonHelp how do I inform your delivery drivers to just leave my package at my front door?,DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE
+198,@AmazonHelp Seriously!!! Ur customer service already told me cancel d order .. Amazon can't do anything to it..n till now it's showing expected on 25th👏,ORDER_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+199,"@AmazonHelp 3 different people have given 3 different answers and I still don't have my order. Says delivered Saturday, was not, I was home all day",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,ESCALATE,AUTO_HANDLE,AUTO_HANDLE
+200,"@AmazonHelp what the hell is going on?! Today's last day to deliver and still not shipped!!
+Should I pledge that I won't ever order from u?!",DELIVERY_ISSUE,GENERAL_SUPPORT,GENERAL_SUPPORT,AUTO_HANDLE,AUTO_HANDLE,AUTO_HANDLE

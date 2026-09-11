@@ -1,0 +1,229 @@
+{
+  "dataset": {
+    "name": "AmazonHelp Golden Set (final reviewed)",
+    "path": "evaluation\\amazon_golden_set_final.csv",
+    "rows": 200,
+    "training_data": "data\\amazonhelp_training_labeled.csv",
+    "historical_retrieval_data": "data\\amazonhelp_conversation_pairs.csv",
+    "golden_set_used_for_training": false
+  },
+  "intent_metrics": {
+    "accuracy": 0.405,
+    "macro_precision": 0.3938140267927502,
+    "macro_recall": 0.16411335578002242,
+    "macro_f1": 0.15065351065351065,
+    "per_label": {
+      "DELIVERY_ISSUE": {
+        "precision": 0.5,
+        "recall": 0.025,
+        "f1": 0.047619047619047616,
+        "support": 40
+      },
+      "ORDER_ISSUE": {
+        "precision": 1.0,
+        "recall": 0.1111111111111111,
+        "f1": 0.2,
+        "support": 9
+      },
+      "RETURN_REFUND": {
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4,
+        "support": 24
+      },
+      "PAYMENT_BILLING": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 19
+      },
+      "ACCOUNT_MEMBERSHIP": {
+        "precision": 0.6666666666666666,
+        "recall": 0.09090909090909091,
+        "f1": 0.16,
+        "support": 22
+      },
+      "PRODUCT_TECHNICAL": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11
+      },
+      "PRODUCT_QUALITY": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 3
+      },
+      "SAFETY_ISSUE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      "GENERAL_SUPPORT": {
+        "precision": 0.3776595744680851,
+        "recall": 1.0,
+        "f1": 0.5482625482625483,
+        "support": 71
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "DELIVERY_ISSUE",
+        "ORDER_ISSUE",
+        "RETURN_REFUND",
+        "PAYMENT_BILLING",
+        "ACCOUNT_MEMBERSHIP",
+        "PRODUCT_TECHNICAL",
+        "PRODUCT_QUALITY",
+        "SAFETY_ISSUE",
+        "GENERAL_SUPPORT"
+      ],
+      "values": [
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          38
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          18
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          19
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          20
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          71
+        ]
+      ]
+    }
+  },
+  "action_metrics": {
+    "accuracy": 0.435,
+    "macro_precision": 0.7131979695431472,
+    "macro_recall": 0.5129310344827587,
+    "macro_f1": 0.32414246837525046,
+    "per_label": {
+      "AUTO_HANDLE": {
+        "precision": 0.4263959390862944,
+        "recall": 1.0,
+        "f1": 0.597864768683274,
+        "support": 84
+      },
+      "ESCALATE": {
+        "precision": 1.0,
+        "recall": 0.02586206896551724,
+        "f1": 0.05042016806722689,
+        "support": 116
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "AUTO_HANDLE",
+        "ESCALATE"
+      ],
+      "values": [
+        [
+          84,
+          0
+        ],
+        [
+          113,
+          3
+        ]
+      ]
+    },
+    "precision": 0.7131979695431472,
+    "recall": 0.5129310344827587,
+    "f1": 0.32414246837525046
+  },
+  "reply_quality": {
+    "status": "placeholder",
+    "message": "Reply quality fields are prepared for later LLM-as-judge scoring."
+  }
+}
