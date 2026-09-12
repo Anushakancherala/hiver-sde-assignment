@@ -9,3 +9,4 @@ venv/
 *.pyd
 *.log
 .DS_Store
+.vscode/

@@ -13,7 +13,7 @@ This repository contains a lightweight support-agent pipeline for the AmazonHelp
 2. If you want to use the real OpenAI-compatible provider, copy the example environment file and fill in your key:
 
    ```bash
-   copy .env.example .env
+   cp .env.example .env
    ```
 
    Then edit `.env` and set `OPENAI_API_KEY` if you plan to run non-mock LLM calls.

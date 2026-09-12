@@ -9,7 +9,11 @@ from typing import Any
 import joblib
 import pandas as pd
 
-from src.agent import ESCALATION_RECOMMENDATION, decide_action, generate_reply
+from src.agent import (
+    ESCALATION_RECOMMENDATION,
+    decide_action,
+    generate_reply,
+)
 from src.intents import INTENTS, predict_intent
 from src.retrieval import build_retriever, retrieve_similar_conversations
 
@@ -20,29 +24,59 @@ GOLDEN_SET_PATH = Path("evaluation/amazon_golden_set_final.csv")
 TRAINING_DATA_PATH = Path("data/amazonhelp_training_labeled.csv")
 HISTORICAL_PAIRS_PATH = Path("data/amazonhelp_conversation_pairs.csv")
 MODEL_PATH = Path("models/intent_classifier.joblib")
-REQUIRED_GOLDEN_COLUMNS = ["customer_message", "amazon_reply", "intent", "expected_action", "reason"]
+
+REQUIRED_GOLDEN_COLUMNS = [
+    "customer_message",
+    "amazon_reply",
+    "intent",
+    "expected_action",
+    "reason",
+]
 
 
 class MockProvider:
-    """Deterministic provider used by tests and offline evaluation."""
+    """Deterministic provider used only for offline testing."""
 
     def generate(self, prompt: str) -> str:
-        return "Based on similar AmazonHelp cases, please contact Amazon customer support for assistance."
+        return (
+            "Based on similar AmazonHelp cases, please contact "
+            "Amazon customer support for assistance."
+        )
 
 
-def load_golden_set(path: str | Path = GOLDEN_SET_PATH) -> pd.DataFrame:
+def load_golden_set(
+    path: str | Path = GOLDEN_SET_PATH,
+) -> pd.DataFrame:
     """Load and validate the final reviewed Golden Set only."""
+
     data = pd.read_csv(path, keep_default_na=False)
+
     if list(data.columns) != REQUIRED_GOLDEN_COLUMNS:
-        raise ValueError(f"Expected Golden Set columns: {REQUIRED_GOLDEN_COLUMNS}")
+        raise ValueError(
+            f"Expected Golden Set columns: {REQUIRED_GOLDEN_COLUMNS}"
+        )
+
     if len(data) != 200:
-        raise ValueError(f"Expected 200 Golden Set rows, found {len(data)}")
-    if data[REQUIRED_GOLDEN_COLUMNS].apply(lambda column: column.astype(str).str.strip().eq("")).any().any():
+        raise ValueError(
+            f"Expected 200 Golden Set rows, found {len(data)}"
+        )
+
+    if (
+        data[REQUIRED_GOLDEN_COLUMNS]
+        .apply(lambda column: column.astype(str).str.strip().eq(""))
+        .any()
+        .any()
+    ):
         raise ValueError("Golden Set contains empty required values")
+
     return data
 
 
-def _serialize_examples(examples: list[dict[str, Any]]) -> str:
+def _serialize_examples(
+    examples: list[dict[str, Any]],
+) -> str:
+    """Serialize retrieved examples for storage in predictions.csv."""
+
     return json.dumps(examples, ensure_ascii=False)
 
 
@@ -54,24 +88,71 @@ def evaluate_pipeline(
     limit: int | None = None,
 ) -> tuple[pd.DataFrame, dict[str, Any]]:
     """Run classification, retrieval, generation, and escalation decisions."""
+
+    if provider is None:
+        raise ValueError(
+            "A reply-generation provider is required. "
+            "Use MockProvider() for offline testing or OpenAIProvider() "
+            "for real LLM evaluation."
+        )
+
     golden_set = load_golden_set(golden_set_path)
+
     if limit is not None:
         golden_set = golden_set.head(limit).copy()
+
     classifier = joblib.load(model_path)
     retriever = build_retriever(historical_pairs_path)
-    llm_provider = provider or MockProvider()
+
     prediction_rows = []
 
     for _, row in golden_set.iterrows():
         customer_message = str(row["customer_message"])
-        predicted_intent = predict_intent(classifier, customer_message)
-        retrieved_examples = retrieve_similar_conversations(retriever, customer_message)
-        generated_reply = generate_reply(customer_message, predicted_intent, retrieved_examples, llm_provider)
-        decision = decide_action(customer_message, predicted_intent, retrieved_examples, generated_reply)
-        similarities = [float(example["similarity"]) for example in retrieved_examples]
+
+        # 1. Predict intent
+        predicted_intent = predict_intent(
+            classifier,
+            customer_message,
+        )
+
+        # 2. Retrieve similar historical conversations
+        retrieved_examples = retrieve_similar_conversations(
+            retriever,
+            customer_message,
+        )
+
+        # 3. Generate grounded customer-facing reply
+        generated_reply = generate_reply(
+            customer_message,
+            predicted_intent,
+            retrieved_examples,
+            provider,
+        )
+
+        # 4. Decide AUTO_HANDLE vs ESCALATE
+        decision = decide_action(
+            customer_message,
+            predicted_intent,
+            retrieved_examples,
+            generated_reply,
+        )
+
+        similarities = [
+            float(example["similarity"])
+            for example in retrieved_examples
+        ]
+
         confidence = None
+
         if hasattr(classifier, "predict_proba"):
-            confidence = float(max(classifier.predict_proba([customer_message])[0]))
+            confidence = float(
+                max(
+                    classifier.predict_proba(
+                        [customer_message]
+                    )[0]
+                )
+            )
+
         prediction_rows.append(
             {
                 "customer_message": customer_message,
@@ -82,8 +163,13 @@ def evaluate_pipeline(
                 "predicted_action": decision["action"],
                 "generated_reply": generated_reply,
                 "escalation_reason": decision["reason"],
-                "retrieval_similarity": max(similarities, default=0.0),
-                "retrieved_examples": _serialize_examples(retrieved_examples),
+                "retrieval_similarity": max(
+                    similarities,
+                    default=0.0,
+                ),
+                "retrieved_examples": _serialize_examples(
+                    retrieved_examples
+                ),
                 "intent_confidence": confidence,
                 "reply_relevance": None,
                 "reply_groundedness": None,
@@ -95,13 +181,16 @@ def evaluate_pipeline(
         )
 
     predictions = pd.DataFrame(prediction_rows)
+
     results = {
         "dataset": {
             "name": "AmazonHelp Golden Set (final reviewed)",
             "path": str(golden_set_path),
             "rows": len(predictions),
             "training_data": str(TRAINING_DATA_PATH),
-            "historical_retrieval_data": str(historical_pairs_path),
+            "historical_retrieval_data": str(
+                historical_pairs_path
+            ),
             "golden_set_used_for_training": False,
         },
         "intent_metrics": intent_metrics(
@@ -114,10 +203,14 @@ def evaluate_pipeline(
             predictions["predicted_action"].tolist(),
         ),
         "reply_quality": {
-            "status": "placeholder",
-            "message": "Reply quality fields are prepared for later LLM-as-judge scoring.",
+            "status": "pending_llm_judge",
+            "message": (
+                "Reply quality will be evaluated separately "
+                "using the LLM-as-judge pipeline."
+            ),
         },
     }
+
     return predictions, results
 
 
@@ -128,5 +221,13 @@ def write_evaluation_outputs(
     results_path: str | Path = "evaluation/results.json",
 ) -> None:
     """Write per-example predictions and aggregate results."""
-    predictions.to_csv(predictions_path, index=False)
-    Path(results_path).write_text(json.dumps(results, indent=2), encoding="utf-8")
+
+    predictions.to_csv(
+        predictions_path,
+        index=False,
+    )
+
+    Path(results_path).write_text(
+        json.dumps(results, indent=2),
+        encoding="utf-8",
+    )

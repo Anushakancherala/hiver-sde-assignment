@@ -33,17 +33,25 @@ class OpenAIProvider:
         self.api_key = self.api_key or os.getenv("OPENAI_API_KEY")
         self.model = self.model or os.getenv("OPENAI_MODEL", "gpt-4o-mini")
         self.base_url = self.base_url or os.getenv(
-            "OPENAI_BASE_URL", "https://api.openai.com/v1/chat/completions"
+            "OPENAI_BASE_URL",
+            "https://api.openai.com/v1/chat/completions",
         )
+
         if not self.api_key:
             raise ValueError("OPENAI_API_KEY environment variable is required")
 
     def generate(self, prompt: str) -> str:
         payload = {
             "model": self.model,
-            "messages": [{"role": "user", "content": prompt}],
+            "messages": [
+                {
+                    "role": "user",
+                    "content": prompt,
+                }
+            ],
             "temperature": 0.2,
         }
+
         http_request = request.Request(
             self.base_url,
             data=json.dumps(payload).encode("utf-8"),
@@ -55,15 +63,47 @@ class OpenAIProvider:
         )
 
         try:
-            with request.urlopen(http_request, timeout=self.timeout) as response:
-                response_data = json.loads(response.read().decode("utf-8"))
-        except (error.HTTPError, error.URLError, TimeoutError, json.JSONDecodeError) as exc:
-            raise LLMProviderError("LLM provider request failed") from exc
+            with request.urlopen(
+                http_request,
+                timeout=self.timeout,
+            ) as response:
+                response_data = json.loads(
+                    response.read().decode("utf-8")
+                )
+
+        except error.HTTPError as exc:
+            error_body = exc.read().decode(
+                "utf-8",
+                errors="replace",
+            )
+            raise LLMProviderError(
+                f"LLM provider request failed: HTTP {exc.code}: {error_body}"
+            ) from exc
+
+        except (
+            error.URLError,
+            TimeoutError,
+            json.JSONDecodeError,
+        ) as exc:
+            raise LLMProviderError(
+                "LLM provider request failed"
+            ) from exc
 
         try:
             content = response_data["choices"][0]["message"]["content"]
-        except (KeyError, IndexError, TypeError) as exc:
-            raise LLMProviderError("LLM provider returned an unexpected response") from exc
+
+        except (
+            KeyError,
+            IndexError,
+            TypeError,
+        ) as exc:
+            raise LLMProviderError(
+                "LLM provider returned an unexpected response"
+            ) from exc
+
         if not isinstance(content, str) or not content.strip():
-            raise LLMProviderError("LLM provider returned an empty response")
+            raise LLMProviderError(
+                "LLM provider returned an empty response"
+            )
+
         return content.strip()
